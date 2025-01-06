@@ -1456,7 +1456,6 @@ section,
 
 
 /* Dropdown menu */
-
 .projects .dropdown {
   position: relative;
   display: inline-block;
@@ -1474,22 +1473,24 @@ section,
   margin: 0; /* Remove margin for consistency */
   border: 1px solid #ddd;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  width: max-content; /* Ensures dropdown width fits its content */
+  width: auto; /* Ensures dropdown width adjusts to content */
+  white-space: nowrap; /* Prevents items from wrapping */
+  text-align: left; /* Aligns all text to the left */
 }
 
 .projects .dropdown-menu li {
+  display: block; /* Ensure each item is a block for full width */
+  margin: 0; /* Reset any default margins */
   padding: 10px 20px; /* Even padding for all items */
-  white-space: nowrap; /* Prevent text wrapping */
+  text-align: left; /* Consistent alignment */
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  margin: 0; /* Ensure no space between items */
   border-bottom: 1px solid #ddd; /* Separator between items */
-  line-height: normal; /* Reset any unusual line-height */
-  border-radius: 10px;
+  box-sizing: border-box; /* Ensure padding and borders are included in width */
 }
 
 .projects .dropdown-menu li:last-child {
-  border-bottom: none; /* No border for the last item */
+  border-bottom: none; /* Remove border for the last item */
 }
 
 .projects .dropdown-menu li:hover {
@@ -1501,15 +1502,24 @@ section,
   display: block; /* Show menu on hover */
 }
 
-/* Fix spacing/alignment issues */
+/* Fix spacing and alignment */
 .projects .dropdown-menu li:first-child {
   margin-top: 0;
   border-top: none;
 }
 
 .projects .dropdown-menu li + li {
-  margin-top: 0; /* Ensure no added spacing between list items */
+  margin-top: 0; /* Remove added space between list items */
 }
+
+.projects .dropdown-menu li a {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-decoration: none; /* Reset link styling */
+  color: inherit; /* Inherit text color */
+}
+
 
 
 
