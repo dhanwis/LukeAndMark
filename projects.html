@@ -103,22 +103,26 @@
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">all</li>
+            <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-construction">Building Materials</li>
             <li data-filter=".filter-tools">Tools and Machineries</li>
             <li data-filter=".filter-safety">Safety Equipment</li>
             
             <!-- Dropdown for Paints -->
+            <!-- <button class="dropdown dropdown-btn" disabled> -->
             <li class="dropdown">
-              <a style="color: #52565e" class="dropdown-toggle" data-toggle="dropdown">Paints and Accessories</a>
+              <a style="color: #52565e;" class="dropdown-toggle">Paints and Accessories</a>
               <ul class="dropdown-menu">
-                <li data-filter=".filter-paints" >All Paints</li>
-                <li data-filter=".filter-abrasives" >Abrasives</li>
-                <li data-filter=".filter-adhesives" >Adhesives</li>
+                <li data-filter=".filter-paints">Paints</li>
+                <li data-filter=".filter-abrasives">Abrasives</li>
+                <li data-filter=".filter-adhesives">Adhesives</li>
+                <li data-filter=".filter-others">Others</li>
               </ul>
             </li>
+            <!-- </button> -->
+            
             <li data-filter=".filter-accessories">Door Accessories</li>
-          </ul>
+          </ul>          
           <!-- End Portfolio Filters -->
           
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
@@ -135,7 +139,7 @@
                 </div>
               </div>
             </div>
-
+ 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-tools">
               <div class="portfolio-content h-100">
                 <img src="assets/img/products/tools/high-pressure-pump.jpg" class="img-fluid" alt="">
@@ -585,6 +589,17 @@
                 </div>
               </div>
             </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-others">
+              <div class="portfolio-content h-100"> 
+                <img src="assets/img/products/paints/spatula.JPG" class="img-fluid" alt="">
+                <h4 class="portfolio-title">Spatula</h4>
+                <div class="portfolio-info">
+                  <a href="assets/img/products/paints/spatula.JPG" title="Spatula" data-gallery="portfolio-gallery-paints" class="glightbox preview-link">
+                  </a>  
+                </div>
+              </div>
+            </div>
             
             <!-- End of Paints and brushes -->
 
@@ -648,7 +663,7 @@
 
   <footer id="footer" class="footer dark-background">
 
-    <div class="container footer-top">
+    <!-- <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
@@ -713,7 +728,7 @@
         </div>
 
       </div>
-    </div>
+    </div> -->
 
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">Luke and Mark</strong> <span>All Rights Reserved</span></p>

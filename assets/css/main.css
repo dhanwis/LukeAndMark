@@ -1456,10 +1456,16 @@ section,
 
 
 /* Dropdown menu */
+
+.dropdown-btn{
+ border-style: none;
+}
+
 .projects .dropdown {
   position: relative;
   display: inline-block;
 }
+
 
 .projects .dropdown-menu {
   display: none;
@@ -1472,7 +1478,7 @@ section,
   padding: 0; /* Remove padding for consistency */
   margin: 0; /* Remove margin for consistency */
   border: 1px solid #ddd;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
   width: auto; /* Ensures dropdown width adjusts to content */
   white-space: nowrap; /* Prevents items from wrapping */
   text-align: left; /* Aligns all text to the left */
