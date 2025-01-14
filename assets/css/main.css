@@ -176,14 +176,14 @@ h6 {
   color: var(--color-primary);
 }
 
-.scrolled .header {
+.header {
   box-shadow: 0px 0 18px #0000001a;
 }
 
 /* Global Header on Scroll
 ------------------------------*/
-.scrolled .header {
-  --background-color: rgba(255, 255, 255, 0.95);
+.header {
+  --background-color: #ffffff;
   --heading-color: #0d695c;
   --nav-color: #3c3c3c;
   --nav-hover-color: #3c3c3c;
@@ -861,6 +861,7 @@ section,
 
 .hero .carousel-item img {
   position: absolute;
+  margin-top: 100px;
   inset: 0;
   display: block;
   width: 100%;
