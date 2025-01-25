@@ -838,7 +838,7 @@ section,
   position: relative;
 }
 
-.hero .info h2:after {
+/* .hero .info h2:after {
   content: "";
   position: absolute;
   display: block;
@@ -849,7 +849,7 @@ section,
   right: 0;
   bottom: 0;
   margin: auto;
-}
+} */
 
 @media (max-width: 768px) {
   .hero .info h2 {
