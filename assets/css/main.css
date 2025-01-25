@@ -793,6 +793,43 @@ section,
   }
 }
 
+
+/* @media (max-width: 480px) {
+  .desktop {
+    display: none !important; 
+  }
+
+  .mobile {
+    display: block !important;
+  }
+}
+
+@media (min-width: 481px) {
+  .mobile {
+    display: none !important;
+  }
+
+  .desktop {
+    display: block !important; 
+  }
+} */
+
+
+
+
+/* @media (min-width: 480px)
+{
+  .hero .mobile{
+    display: none;
+  }
+
+  .hero .desktop{
+    display: block;
+  }
+} */
+   
+
+
 .hero .info h2 {
   margin-bottom: 30px;
   padding-bottom: 30px;
